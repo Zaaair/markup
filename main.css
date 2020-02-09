@@ -137,3 +137,7 @@
 	height: 700px;
 
 }
+.projekt-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
