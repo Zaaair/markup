@@ -134,10 +134,42 @@
 }
 .blok-projekt{
 	background-color: #2F4F4F;
-	height: 700px;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	
 
 }
 .projekt-flex{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 800px;
 }
+.projekt-child:hover .projekt-img1{
+	display: none;
+}
+.projekt-child:hover .projekt-img2{
+	display: block;
+}
+.projekt-img1{
+	width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.projekt-img2{
+	width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.h2projekt {
+	text-align: center;
+}
+
+
+ 
